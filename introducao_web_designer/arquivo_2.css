@@ -1,0 +1,108 @@
+/*CSS 2*/
+
+
+/*TAG'S*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial;
+}
+body{
+	background-color: #000000;
+}
+p{
+	color: white;
+	font-size: 25px;
+	font-family: Helvetica, Arial;
+	text-shadow: 1px 1px 1px #111111;
+}
+header{
+	clear: both;
+	height: 100px;	
+	background-color: #FFD700;
+	background-image: -webkit-linear-gradient(gold, yellow, gold);	
+	padding: 15px;
+}
+footer{
+	clear: both;
+	background-color: #FFD700;
+	text-align: center;
+	font-size: 15px;
+	height: 50px;
+	padding: 25px 0 10px 0;
+	color: #1E90FF;
+	text-shadow: 1px 1px #111;
+	background-image: -webkit-linear-gradient(gold, yellow, gold);	
+}
+h1{
+	color: #FFD700;
+	text-align: center;
+	text-shadow: 1px 1px 1px #111111;
+	margin: 0 0 70px 0;
+}
+h2{
+	color: #FFD700;
+	text-align: center;
+	text-shadow: 1px 1px 1px #111111;
+	margin: 30px 0 30px 0;
+}
+ol{
+	color: white;
+	font-size: 25px;
+	font-family: Helvetica, Arial;
+	text-shadow: 1px 1px 1px #111111;
+}
+li{
+	margin: 20px 0 20px 0;
+}
+
+/* ID's */
+
+#principal{
+	background-image: url('fundo3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	overflow: auto;
+	clear: both;
+	min-height: 600px;
+	max-height: 700px;
+    padding: 3em;
+	background-size: cover;
+}
+#logo{
+	float: left;
+}
+#menu{
+	float: right;
+	margin-top: 40px;
+}
+#menu a{
+	padding: 50px 20px;
+	text-decoration: none;
+	color: #1E90FF;
+	text-shadow: 1px 1px #111111;
+	font-size: 20px;
+}
+#menu a:hover{
+	background-color: #1E90FF;
+	color: #FFD700;
+	-webkit-transition: 1s;
+}
+
+/* CLASS */
+
+.container{
+	width: 960px;
+	margin: auto;
+}
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px 0 60px 0;
+	border-radius: 20px;
+	box-shadow: 15px 15px 80px #111111;
+}

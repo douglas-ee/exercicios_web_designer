@@ -1,0 +1,119 @@
+/*CSS*/
+
+/*TAG's*/
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	background-color: #696969;
+	font-size: 30px;
+	font-family: Arial;
+}
+header{
+	background-color: #A9A9A9;
+	font-family: Arial;
+	height: auto;
+}
+/*ol{
+	height: 150px;
+	clear: both;
+	background-color: #FF1493
+	font-size: 15px;
+	font-family: Comic Sans MS;
+*/
+}
+div{
+	clear: both;
+	background-color: #00FFFF;
+	height: 400px;
+	font-size: 25px;
+}
+footer{
+	clear: both;
+	background-color: #7FFF00;
+	font-family: Comic Sans MS;
+	height: 150px;
+	font-size: 100%;
+}
+
+/*ID's*/
+#div1{
+	width: 20%;
+	float: left;
+}
+#div2{
+	width: 20%;
+	float: right;	
+}
+#div3{
+	width: 20%;
+	float: right;	
+}
+#div4{
+	width: 20%;
+	float: right;	
+}
+#div5{
+	width: 20%;
+	float: right;
+}
+#div_header{
+	height: 100%;
+	background-color: #FFA500;
+	clear: both;
+}
+#div_f_1{
+	width: 50%;
+	float: left;
+}
+#div_f_2{
+	width: 50%;
+	float: right;
+}
+#div_s_1{
+	width: 50%;
+	float: left;
+}
+#div_s_2{
+	width: 50%;
+	float: right;
+}
+#div_v_1{
+	width: 50%;
+	float: left;
+}
+#div_v_2{
+	width: 50%;
+	float: right;	
+}
+#div_sy_1{
+	width: 50%;
+	float: left;
+}
+#div_sy_2{
+	width: 50%;
+	float: right;	
+}
+#div_st_1{
+	width: 50%;
+	float: left;
+}
+#div_st_2{
+	width: 50%;
+	float: right;	
+}
+#div_es{
+	width: 50%;
+	float: left;	
+}
+#div_di{
+	width: 50%;
+	float: right;
+}
+
+/*CLASS*/
+.container{
+	width: 1500px;
+	margin: 50px auto;
+}
