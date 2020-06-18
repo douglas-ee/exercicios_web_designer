@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Formularios</title>
+	<style type="text/css">
+		body{
+			color: green;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<p><b><i><u><big><big><big>Assine o formulario abaixo para obtenção de dados importantissimos</big></big></big></u></i></b></p>
+	<hr>
+
+	<br>
+
+	<ul>
+		<li><p><big><b>O formulario tem como principais objetivos:</b></big></p></li><hr>
+	</ul>
+	<ol>
+		<li>Olá, temos como principal objetivo arrecadar dados para estudos e analises</li>
+		<li>Todos o material será de extrema importancia para analisarmos a situação e corrigir erros na sociedade</li>
+		<li>Todos os resultados serão divulgados posteriormente por email para que todos saibam da situação que aflinge a todos</li>
+	</ol>
+
+	<br>
+
+	<p><big><b>Preencha todos os espaços sem esquecer de nada para melhor contribuição</b></big></p><hr>
+
+	<br>
+
+	<form action="processa.php" method="post">
+
+		<label><big><b>Se voce achasse uma moeda de um real, pegaria ou deixaria pro azar?</b></big></label>
+		<input type="text" name="Resposta" placeholder="Digite aqui seu sim">
+		<hr>
+		<br>
+		<label><big><b>Você jogaria dinheiro fora, selecione a opção que lhe satisfaz:</b></big></label>
+		<select name="Selecione qual opção lhe satisfaz:">
+			<option value="1">SIM</option>
+			<option value="2">NÃO</option>			
+		</select>
+		<hr>
+		<br>
+		<label><big><b>Marque a moeda que voce mais queria ter:</b></big></label><br>
+		<input type="radio" name="radio1" value="1"> (1 R$)<br>
+		<input type="radio" name="radio1" value="2"> (0.50 R$)<br>
+		<input type="radio" name="radio1" value="3"> (0.25 R$)<br>
+		<input type="radio" name="radio1" value="4"> (0.10 R$)<br>
+		<input type="radio" name="radio1" value="5"> (0.05 R$)
+		<hr>
+		<br>
+		<label><big><b>Marque quais as moedas que voce mais queria ter em mãos agora:</b></big></label><br>
+		<input type="checkbox" name="text1" value="1">(1 R$)<br>
+		<input type="checkbox" name="text1" value="2">(0.50 R$)<br>
+		<input type="checkbox" name="text1" value="3">(0.25 R$)<br>
+		<input type="checkbox" name="text1" value="4">(0.10 R$)<br>
+		<input type="checkbox" name="text1" value="5">(0.05 R$)<br>
+		<input type="checkbox" name="text1" value="6">(3 R$)
+		<hr>
+		<br>
+		<input type="submit" value="ENVIAR" name="submit">
+	</form>
+</body>
+</html>

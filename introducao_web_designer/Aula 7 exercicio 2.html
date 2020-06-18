@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" type="text/css" href="arquivo.css">
+</head>
+<body>
+	<p>FORMULÁRIO DE INSCRIÇÃO</p>
+	<hr>
+	<form action="processa.txt" method="post">
+		<ol>
+		<li><label>Quantos anos você tem?</label></li>
+		<input type="text" name="Resposta" placeholder="Digite aqui sua Resposta">
+		<br>
+		<li><label>Qual seu endereço?</label></li>
+		<input type="text" name="Resposta" placeholder="Digite aqui sua Resposta">
+		<br>
+		<li><label>Moraria no litoral?</label></li>
+		<select name="option1">
+			<option value="1">SIM</option>
+			<option value="2">NÃO</option>
+		</select>
+		<br>
+		<li><label>Moraria no interior?</label></li>
+		<select name="option2">
+			<option value="1">SIM</option>
+			<option value="2">NÃO</option>
+		</select>
+		<br>
+		<li><label>Qual das cidade litorâneas da paraiba você prefere morar?</label></li>
+		<input type="radio" name="radio1" value="1">João Pessoa<br>
+		<input type="radio" name="radio1" value="2">Lucena<br>
+		<input type="radio" name="radio1" value="3">Mataraca<br>
+		<input type="radio" name="radio1" value="4">Conde<br>
+		<input type="radio" name="radio1" value="5">Baia da Traição<br>
+		<input type="radio" name="radio1" value="6">Caaporã<br>
+		<input type="radio" name="radio1" value="7">Pitimbu<br>
+		<li><label>Agora liste as praias que voce ja visitou na paraiba:</label></li>
+		<input type="checkbox" name="text1" value="1">Tambaba, Conde<br>
+		<input type="checkbox" name="text1" value="2">Coqueirinho, Conde<br>
+		<input type="checkbox" name="text1" value="3">Praia de Areia Vermelha, Cabedelo<br>
+		<input type="checkbox" name="text1" value="4">Tabatinga, Conde<br>
+		<input type="checkbox" name="text1" value="5">Tambaú, João Pessoa<br>
+		<input type="checkbox" name="text2" value="6">Cabo Branco, João Pessoa<br>		
+		<input type="checkbox" name="text1" value="7">Ponta de Lucena, Lucena<br>
+		<li><label>Diga o nome de uma cidade que você queria visitar em qualquer lugar do mundo:</label></li>
+		<input type="text" name="Resposta" placeholder="Digite aqui sua Resposta"><br>
+		<br>
+		</ol>
+		<hr>
+		<input type="submit" value="ENVIAR" name="processa.txt">
+	</form>
+</body>
+</html>
