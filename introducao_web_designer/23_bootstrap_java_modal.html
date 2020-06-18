@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Java e Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">	
+
+</head>
+
+<body>
+
+	<div class="container">
+		<!--GATILHO DO MADAL-->
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Abrir Modal de Demonstração</button>
+
+		<!--CONFIGURAÇÃO DE UM MODAL-->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="Rotulo do modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Titulo do modal</h4>
+					</div>
+
+					<div class="modal-body">
+						<p>Meu primeiro modal</p>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-defaut" data-dismiss="modal">Fechar</button>
+						<button type="button" class="btn btn-primary">salvar mudanças</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<script src:="js/jquery.js" type="text/javascript"></script>
+		<script src:="js/bootstrap.min.js" type="text/javascript"></script>
+	</footer>
+</body>
+</html>
